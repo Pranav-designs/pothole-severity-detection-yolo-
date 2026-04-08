@@ -1,0 +1,11 @@
+train: ../dataset_yolo/train/images
+val: ../dataset_yolo/valid/images
+test: ../dataset_yolo/test/images
+
+nc: 3
+names: ['minor_pothole', 'medium_pothole', 'major_pothole']
+
+# Severity mapping:
+# 0 = minor_pothole  (LOW severity)
+# 1 = medium_pothole (MEDIUM severity)
+# 2 = major_pothole  (HIGH severity)
